@@ -31,6 +31,22 @@ html,body {
 
 }
 
+.headline2{
+ position: absolute;
+	background-color: none;
+	width: 25%;
+    height: auto;
+    border-style: solid;
+    border-radius: 300px;
+    border-color: #50baab;
+    text-align: center;
+	margin-left: 65%;
+	margin-top: 250px;
+	margin-bottom: none;
+    z-index: 20;
+	overflow: hidden; /*fixes problem with top margin in child*/   
+    
+}
 
 
 
@@ -98,7 +114,7 @@ img {  }
 .featured{
  position: relative;
     background-color: none;
-	width: 400px;
+	width: 50%;
     height: auto;
 	margin-left:200px;
 	margin-right:none;
@@ -265,7 +281,7 @@ body { margin:0px; padding:0px; }
 
 /* Text Styles start */
 p {
-	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
 	font-size: 2.2em;
 	color: #50baab;
 	font-style: normal;
@@ -277,7 +293,7 @@ p {
 }
 
 h1 {
-	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
     position: relative;
 	font-size: 4.1em;
 	color: #50baab;
@@ -293,7 +309,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
 	font-size: 3.5em;
 	color: #50baab;
 	font-style: normal;
@@ -306,7 +322,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
     position: absolute;
 	font-size: 2.5em;
 	color: white;
@@ -321,7 +337,7 @@ h3 {
 }
 
 h4 {
-	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
 	font-size: 4em;
 	color: white;
 	font-style: normal;
@@ -332,7 +348,7 @@ h4 {
 }
 
 h5 {
-	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
 	font-size: 3.5em;
 	color: #50baab;
 	font-style: normal;
@@ -343,7 +359,7 @@ h5 {
 }
 
 h6 {
-	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
 	font-size: 2.6em;
 	color: #50baab;
 	font-style: normal;
@@ -358,7 +374,7 @@ h6 {
 /* Links */
 
 li {
-	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
     background-color: #50baab;
 	text-decoration: none;
     display: inline-block;
@@ -368,7 +384,7 @@ a {
 	font-size: 2.5em;
 	font-weight: normal;    
 	color: white;
-	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
 	text-align: center;
 	text-decoration: none;
 
