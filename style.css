@@ -1,0 +1,379 @@
+html,body {
+
+}
+
+/* Divs start here */
+
+
+.wrapper {
+	position: relative;
+    background-color: none;
+	width: 100%;
+	max-width: 1200px;
+    height: auto;
+	margin-left:auto;
+	margin-right:auto;
+	overflow: hidden; /*fixes problem with top margin in child*/
+		
+}
+
+.headline {
+    position: absolute;
+	background-color: none;
+	width: 40%;
+    height: auto;
+    text-align: right;
+	margin-left: 55%;
+	margin-top: -70px;
+	margin-bottom: none;
+    z-index: 20;
+	overflow: hidden; /*fixes problem with top margin in child*/
+
+}
+
+
+
+
+img {  }
+
+.nav {
+ position: absolute;
+    margin-top: 11px;
+    margin-left: 40px;
+}
+
+.logo {
+  position: absolute;
+    margin-left: 220px;  
+    margin-top: 8px;   
+}
+
+.search {
+ position: absolute;
+    margin-left: 560px;  
+    margin-top: 8px;
+}
+
+.cart {
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 8px;
+    
+}
+
+.blanket{
+   position: relative;
+    background-color: none;
+	width: 490px;
+    height: auto;
+	margin-left:150px;
+	margin-right:none;
+    margin-top: 80px;
+    overflow: hidden;  
+}
+
+.hero {
+	position: relative;
+    background-color: none;
+	width: 800px;
+    height: auto;
+	margin-left:none;
+	margin-right:none;
+    overflow: hidden;
+    z-index: 10; 
+}
+
+.leftarrow {
+   position: absolute;
+    background-color: none;
+	width: auto;
+    height: auto;
+	margin-left:40px;
+    margin-top: 250px;
+	margin-right:none;
+    overflow: hidden;   
+    
+}
+
+.featured{
+ position: relative;
+    background-color: none;
+	width: 400px;
+    height: auto;
+	margin-left:200px;
+	margin-right:none;
+    margin-top: 80px;
+    overflow: hidden;   
+}
+
+.rightarrow {
+    position: absolute;
+	width: auto;
+    height: auto;
+	margin-left:660px;
+    margin-top: 250px;
+	margin-right:none;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.facebook{
+        position: absolute;
+    background-color: none;
+	width: 82px;
+    height: auto;
+	margin-left:38%;
+	margin-right:none;
+    margin-top: 80px;
+    overflow: hidden;   
+}
+
+.instagram{
+    position: relative;
+    background-color: none;
+    width: 82px;
+    height: auto;
+	margin-left:56%;
+	margin-right:none;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.quantities{
+    background-color: #50baab;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    float: left;
+    margin-left: 40px;
+    margin-right: 60px;
+    position: relative;
+}
+
+.quantitynumber{
+    background-color: #d1d2d4;
+    text-align: center;
+    width: 100px; 
+    position: absolute;
+    margin-left: 140px;
+    height: 60px;
+    position: absolute;
+}
+
+.additem li{
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 80px;
+    
+}
+
+
+
+/*nav.fixed-header {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    
+}*/
+
+nav {
+	position: relative;
+    background-color: #fff;
+	width: 100%;
+    height: 68px;
+    margin-top: none;
+    margin-right: auto;
+    margin-bottom: 2px;
+    margin-left: auto;
+	overflow: visible; /*fixes collapsing div*/
+    z-index: 100;
+	
+}
+
+li {
+	position: relative;
+    background-color: none;
+	width: 228px;
+    height: 57px;
+    text-align: center;
+	margin-top: 50px;
+	margin-bottom: 40px;
+    margin-left: 18px;
+    float: left;
+	overflow: hidden; /*fixes collapsing div*/
+    
+	    
+}
+
+.one {
+	position: relative;
+    background-color: #50baab;
+    width: 100%;
+    height: 80px;
+    margin-left: none;
+	margin-right: none;
+	margin-top: none;
+	margin-bottom: none;
+    float: left;
+	/*overflow: hidden; fixes problem with top margin in child*/
+
+}
+
+.two {
+    position: relative;
+	background-color: #50baab;
+	width: 720px;
+    height: 6px;
+	margin-top: none;
+	margin-right: none;
+	margin-bottom: 40px;	
+	margin-left: 5%;
+    float: left;
+	overflow: hidden; /*fixes problem with top margin in child*/
+	
+}
+
+.three {
+    position: relative;
+	background-color: #50baab;
+	width: 26.666%;
+    height: 80px;
+	margin-left: 5%;
+	margin-top: 25px;
+	margin-bottom: 50px;	
+    float: left;
+	overflow: hidden; /*fixes problem with top margin in child*/
+	
+}
+
+footer {
+    position: relative;
+	background-color: #50baab;
+	width: 100%;
+    height: 110px;
+	margin-top: 26px;
+	margin-right: none;
+	margin-bottom: none;	
+	margin-right: none;
+    float: left;
+	overflow: hidden; /*fixes problem with top margin in child*/
+
+}
+
+body { margin:0px; padding:0px; }
+
+/* Text Styles start */
+p {
+	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	font-size: 2.2em;
+	color: #50baab;
+	font-style: normal;
+	letter-spacing: none;
+	line-height: 1.5em;
+    margin-left: 40px;
+    max-width: 720px;
+	
+}
+
+h1 {
+	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+    position: relative;
+	font-size: 4.1em;
+	color: #50baab;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-bottom: none;
+    max-width: 720px;
+
+}
+
+h2 {
+	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	font-size: 3.5em;
+	color: #50baab;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 2px;
+	line-height: 1.125em;
+    margin-left: 40px;
+    max-width: 720px;
+
+}
+
+h3 {
+	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+    position: absolute;
+	font-size: 2.5em;
+	color: white;
+	font-weight: normal;
+	letter-spacing: .05em;
+	line-height: none;
+	margin-top: 165px;
+    margin-bottom: 0px;
+    margin-left: 268px;
+    z-index: 10;
+
+}
+
+h4 {
+	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	font-size: 4em;
+	color: white;
+	font-style: normal;
+	letter-spacing: none;
+	line-height: none;
+    margin-top: -16px;
+
+}
+
+h5 {
+	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	font-size: 3.5em;
+	color: #50baab;
+	font-style: normal;
+	letter-spacing: none;
+	line-height: 1.5em;
+    margin-top: -13px;
+
+}
+
+h6 {
+	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	font-size: 2.6em;
+	color: #50baab;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 2px;
+	line-height: 1.125em;
+    margin-left: 40px;
+    max-width: 400px;
+
+}
+
+/* Links */
+
+li {
+	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+    background-color: #50baab;
+	text-decoration: none;
+    display: inline-block;
+}
+
+a {
+	font-size: 2.5em;
+	font-weight: normal;    
+	color: white;
+	font-family: 'PT Sans Narrow', 'Times New Roman', serif;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: gray;
+	text-decoration: none;
