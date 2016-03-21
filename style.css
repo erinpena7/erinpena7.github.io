@@ -22,8 +22,8 @@ html,body {
 	background-color: none;
 	width: 40%;
     height: auto;
-    text-align: right;
-	margin-left: 55%;
+    text-align: left;
+	margin-left: 0%;
 	margin-top: 10px;
 	margin-bottom: none;
     z-index: 20;
@@ -36,11 +36,9 @@ html,body {
 	background-color: none;
 	width: 25%;
     height: auto;
-    border-style: solid;
-    border-color: #50baab;
     text-align: center;
 	margin-left: 70%;
-	margin-top: 170px;
+	margin-top: 160px;
 	margin-bottom: none;
     z-index: 20;
 	overflow: hidden; /*fixes problem with top margin in child*/   
@@ -370,6 +368,9 @@ h6 {
     margin-top: none;
     margin-bottom: none;
     max-width: 400px;
+    border-style: solid;
+    border-color: #50baab;
+    border-width: 5px;
 
 }
 
