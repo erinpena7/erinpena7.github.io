@@ -24,7 +24,7 @@ html,body {
     height: auto;
     text-align: right;
 	margin-left: 55%;
-	margin-top: -70px;
+	margin-top: 10px;
 	margin-bottom: none;
     z-index: 20;
 	overflow: hidden; /*fixes problem with top margin in child*/
@@ -37,11 +37,10 @@ html,body {
 	width: 25%;
     height: auto;
     border-style: solid;
-    border-radius: 300px;
     border-color: #50baab;
     text-align: center;
-	margin-left: 65%;
-	margin-top: 250px;
+	margin-left: 70%;
+	margin-top: 170px;
 	margin-bottom: none;
     z-index: 20;
 	overflow: hidden; /*fixes problem with top margin in child*/   
@@ -91,7 +90,8 @@ img {  }
 .hero {
 	position: relative;
     background-color: none;
-	width: 800px;
+	width: 100%;
+    max-width: 800px;
     height: auto;
 	margin-left:none;
 	margin-right:none;
@@ -104,7 +104,7 @@ img {  }
     background-color: none;
 	width: auto;
     height: auto;
-	margin-left:40px;
+	margin-left:5%;
     margin-top: 250px;
 	margin-right:none;
     overflow: hidden;   
@@ -116,7 +116,7 @@ img {  }
     background-color: none;
 	width: 50%;
     height: auto;
-	margin-left:200px;
+	margin-left:25%;
 	margin-right:none;
     margin-top: 80px;
     overflow: hidden;   
@@ -126,7 +126,7 @@ img {  }
     position: absolute;
 	width: auto;
     height: auto;
-	margin-left:660px;
+	margin-left:82.5%;
     margin-top: 250px;
 	margin-right:none;
     overflow: hidden;
@@ -215,7 +215,7 @@ li {
     text-align: center;
 	margin-top: 50px;
 	margin-bottom: 40px;
-    margin-left: 18px;
+    margin-left: 2.25%;
     float: left;
 	overflow: hidden; /*fixes collapsing div*/
     
@@ -331,7 +331,7 @@ h3 {
 	line-height: none;
 	margin-top: 165px;
     margin-bottom: 0px;
-    margin-left: 268px;
+    margin-left: 28%;
     z-index: 10;
 
 }
@@ -366,7 +366,9 @@ h6 {
 	font-weight: normal;
 	letter-spacing: 2px;
 	line-height: 1.125em;
-    margin-left: 40px;
+    margin-left: none;
+    margin-top: none;
+    margin-bottom: none;
     max-width: 400px;
 
 }
