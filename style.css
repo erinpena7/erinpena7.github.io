@@ -1,187 +1,105 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Meyer Reset CSS */
+
+img {
+	max-width: 100%; /*makes images scale with flexible grids*/
+	display: block; /*removes tiny space added in some browsers below images */
+}
+
+
+/* Your CSS Starts here */
+/* Place google fonts code here */
+/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400); */
+/* Place google fonts code here */
+
 html,body {
 
 }
 
 /* Divs start here */
-
-
 .wrapper {
 	position: relative;
     background-color: none;
 	width: 100%;
-	max-width: 1200px;
+    max-width: 800px;
     height: auto;
 	margin-left:auto;
 	margin-right:auto;
-	overflow: hidden; /*fixes problem with top margin in child*/
 		
 }
 
 .headline {
     position: absolute;
 	background-color: none;
-	width: 40%;
+	width: 70%;
     height: auto;
-    text-align: left;
-	margin-left: 0%;
-	margin-top: 10px;
-	margin-bottom: none;
-    z-index: 20;
+    text-align: right;
+	margin-right: 5%;
+    margin-left: 25%;
+	margin-top: 0px;
+	margin-bottom: none;	
 	overflow: hidden; /*fixes problem with top margin in child*/
-
+	
 }
 
-.headline2{
- position: absolute;
-	background-color: none;
-	width: 25%;
-    height: auto;
-    text-align: center;
-	margin-left: 70%;
-	margin-top: 160px;
-	margin-bottom: none;
-    z-index: 20;
-	overflow: hidden; /*fixes problem with top margin in child*/   
+.readbox {
+    position: absolute;
+    width: 290px;
+    height: 70px;
+    margin-top: 200px;
+    margin-left: 58%;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
     
 }
-
-
-
-img {  }
-
-.nav {
- position: absolute;
-    margin-top: 11px;
-    margin-left: 40px;
-}
-
-.logo {
-  position: absolute;
-    margin-left: 220px;  
-    margin-top: 8px;   
-}
-
-.search {
- position: absolute;
-    margin-left: 560px;  
-    margin-top: 8px;
-}
-
-.cart {
-    position: absolute;
-    margin-left: 680px;
-    margin-top: 8px;
-    
-}
-
-.blanket{
-   position: relative;
-    background-color: none;
-	width: 490px;
-    height: auto;
-	margin-left:150px;
-	margin-right:none;
-    margin-top: 80px;
-    overflow: hidden;  
-}
-
-.hero {
-	position: relative;
-    background-color: none;
-	width: 100%;
-    max-width: 800px;
-    height: auto;
-	margin-left:none;
-	margin-right:none;
-    overflow: hidden;
-    z-index: 10; 
-}
-
-.leftarrow {
-   position: absolute;
-    background-color: none;
-	width: auto;
-    height: auto;
-	margin-left:5%;
-    margin-top: 250px;
-	margin-right:none;
-    overflow: hidden;   
-    
-}
-
-.featured{
- position: relative;
-    background-color: none;
-	width: 50%;
-    height: auto;
-	margin-left:25%;
-	margin-right:none;
-    margin-top: 80px;
-    overflow: hidden;   
-}
-
-.rightarrow {
-    position: absolute;
-	width: auto;
-    height: auto;
-	margin-left:82.5%;
-    margin-top: 250px;
-	margin-right:none;
-    overflow: hidden;
-    z-index: 100;
-}
-
-.facebook{
-        position: absolute;
-    background-color: none;
-	width: 82px;
-    height: auto;
-	margin-left:38%;
-	margin-right:none;
-    margin-top: 80px;
-    overflow: hidden;   
-}
-
-.instagram{
-    position: relative;
-    background-color: none;
-    width: 82px;
-    height: auto;
-	margin-left:56%;
-	margin-right:none;
-    overflow: hidden;
-    margin-top: 80px;
-}
-
-.quantities{
-    background-color: #50baab;
-    text-align: center;
-    width: 100px;
-    height: 60px;
-    float: left;
-    margin-left: 40px;
-    margin-right: 60px;
-    position: relative;
-}
-
-.quantitynumber{
-    background-color: #d1d2d4;
-    text-align: center;
-    width: 100px; 
-    position: absolute;
-    margin-left: 140px;
-    height: 60px;
-    position: absolute;
-}
-
-.additem li{
-    width: 500px;
-    margin-left: 150px;
-    margin-top: 80px;
-    
-}
-
-
 
 /*nav.fixed-header {
     position: fixed;
@@ -195,54 +113,63 @@ nav {
 	position: relative;
     background-color: #fff;
 	width: 100%;
-    height: 68px;
+    max-width: 1000px;
+    height: 60px;
     margin-top: none;
-    margin-right: auto;
-    margin-bottom: 2px;
-    margin-left: auto;
-	overflow: visible; /*fixes collapsing div*/
+    margin-bottom: 10px;
+	overflow: hidden; /*fixes collapsing div*/
     z-index: 100;
 	
+}
+
+.hero {
+	position: center;
+    background-color: none;
+	width: 100%;
+    height: auto;
+	margin-left:auto;
+	margin-right:auto;
+    z-index: 10;
+    
 }
 
 li {
 	position: relative;
     background-color: none;
-	width: 228px;
-    height: 57px;
+	width: 100%;
     text-align: center;
-	margin-top: 50px;
-	margin-bottom: 40px;
-    margin-left: 2.25%;
+    margin-left: none;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
     float: left;
 	overflow: hidden; /*fixes collapsing div*/
-    
 	    
 }
 
 .one {
 	position: relative;
-    background-color: #50baab;
+    background-color: #f7941e;
     width: 100%;
-    height: 80px;
+    min-width: 800px;
+    height: 100px;
     margin-left: none;
 	margin-right: none;
 	margin-top: none;
 	margin-bottom: none;
-    float: left;
 	/*overflow: hidden; fixes problem with top margin in child*/
 
 }
 
 .two {
     position: relative;
-	background-color: #50baab;
-	width: 720px;
-    height: 6px;
-	margin-top: none;
-	margin-right: none;
-	margin-bottom: 40px;	
+	background-color: #eee;
+	width: 42.5%;
+    height: 200px;
 	margin-left: 5%;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: none;	
     float: left;
 	overflow: hidden; /*fixes problem with top margin in child*/
 	
@@ -250,149 +177,329 @@ li {
 
 .three {
     position: relative;
-	background-color: #50baab;
+	background-color: #ddd;
 	width: 26.666%;
-    height: 80px;
+    height: 175px;
 	margin-left: 5%;
 	margin-top: 25px;
-	margin-bottom: 50px;	
+	margin-bottom: none;	
     float: left;
 	overflow: hidden; /*fixes problem with top margin in child*/
 	
 }
 
-footer {
+.four {
+    display: none;
     position: relative;
-	background-color: #50baab;
-	width: 100%;
-    height: 110px;
-	margin-top: 26px;
-	margin-right: none;
+	background-color: #eee;
+	width: 21.875%;
+    height: 200px;
+	margin-left: 2.5%;
+	margin-top: 25px;
 	margin-bottom: none;	
-	margin-right: none;
     float: left;
 	overflow: hidden; /*fixes problem with top margin in child*/
+	
+}
 
+.five {
+    display: none;
+    position: relative;
+	background-color: #ddd;
+	width: 17%;
+    height: 150px;
+	margin-left: 2.5%;
+	margin-top: 25px;
+	margin-bottom: none;	
+    float: left;
+	overflow: hidden; /*fixes problem with top margin in child*/
+	
+}
+
+.six {
+    display: none;
+    position: relative;
+	background-color: #eee;
+	width: 13.75%;
+    height: 100px;
+	margin-left: 2.5%;
+	margin-top: 25px;
+	margin-bottom: 25px;	
+    float: left;
+	overflow: hidden; /*fixes problem with top margin in child*/
+	
+}
+
+.mainmenu {
+	position: fixed;
+	width: 30px;
+    height: auto;
+	left: 80%;
+	top: 15px;
+	z-index: 40;
+}
+
+.menudrop {
+	position: absolute;
+	background: #FFF;
+	width: 100%;
+	height: auto;
+	left: 0%;
+	top: 12%;
+	overflow: hidden;
+	z-index: 100;
+	display: none;
+	
+}
+
+.hamburger {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	
+}
+
+.hamburger_bar li {
+	position: relative;
+	width: 100%;
+	height: 10%;
+	border-bottom: solid;
+	border-color: #FFFFE5;
+	border-width: 1px;
+	margin-left: 0%;
+	margin-top: 5%;
+	text-indent: 5%;
+	overflow: hidden;
+	z-index: 50;
+	
+}
+
+.hamburger a {
+	text-decoration: none;
+	color: #AAA;
+	font-family: 'Arvo', 'Georgia', 'Times New Roman', serif;
+	font-size: .75em;
+	line-height: 1.75em;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+
+.hamburger li:hover {
+	margin-top: 6.25%;
+	
 }
 
 body { margin:0px; padding:0px; }
 
 /* Text Styles start */
 p {
-	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
-	font-size: 2.2em;
-	color: #50baab;
+	font-family: 'PT Serif', 'Times New Roman', serif;
+	font-size: 2.8em;
+	color: black;
 	font-style: normal;
 	letter-spacing: none;
-	line-height: 1.5em;
-    margin-left: 40px;
-    max-width: 720px;
+	line-height: 1.6em;
+	margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+	margin-bottom: none;
 	
 }
 
 h1 {
-	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
-    position: relative;
-	font-size: 4.1em;
-	color: #50baab;
+	font-family: 'Lato', 'Century Gothic', sans-serif;
+	font-size: 4.6em;
+	color: white;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	letter-spacing: 2px;
 	line-height: 1.2em;
-    margin-left: 40px;
-    margin-right: auto;
-    margin-bottom: none;
-    max-width: 720px;
+
 
 }
 
 h2 {
-	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
-	font-size: 3.5em;
-	color: #50baab;
-	font-style: normal;
-	font-weight: normal;
-	letter-spacing: 2px;
-	line-height: 1.125em;
-    margin-left: 40px;
-    max-width: 720px;
+	font-family: 'Lato', 'Century Gothic', sans-serif;
+	font-size: 3em;
+    text-align: center;
+	color: white;
+	font-style: bold;
+	letter-spacing: none;
+	line-height: 1em;
+	margin-top: 12px;
+	margin-bottom: none;
 
 }
 
 h3 {
-	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
-    position: absolute;
-	font-size: 2.5em;
-	color: white;
-	font-weight: normal;
-	letter-spacing: .05em;
+	font-family: 'Lato', 'Century Gothic', sans-serif;
+	font-size: 1.25em;
+	color: gray;
+	font-style: normal;
+	letter-spacing: none;
 	line-height: none;
-	margin-top: 165px;
-    margin-bottom: 0px;
-    margin-left: 28%;
-    z-index: 10;
+	margin-top: 3px;
+	margin-bottom: 5px;
 
 }
 
 h4 {
-	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
-	font-size: 4em;
-	color: white;
+	font-family: 'Georgia', 'Times New Roman', serif;
+	font-size: .75em;
+	color: black;
 	font-style: normal;
 	letter-spacing: none;
 	line-height: none;
-    margin-top: -16px;
+	margin-top: none;
+	margin-bottom: 20px;
 
 }
 
 h5 {
-	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
-	font-size: 3.5em;
-	color: #50baab;
+	font-family: 'Georgia', 'Times New Roman', serif;
+	font-size: .75em;
+	color: gray;
 	font-style: normal;
 	letter-spacing: none;
-	line-height: 1.5em;
-    margin-top: -13px;
+	line-height: none;
+	margin-top: none;
+	margin-bottom: 20px;
 
 }
 
 h6 {
-	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
-	font-size: 2.6em;
-	color: #50baab;
+	font-family: 'Georgia', 'Times New Roman', serif;
+	font-size: .5em;
+	color: gray;
 	font-style: normal;
-	font-weight: normal;
-	letter-spacing: 2px;
-	line-height: 1.125em;
-    margin-left: none;
-    margin-top: none;
-    margin-bottom: none;
-    max-width: 400px;
-    border-style: solid;
-    border-color: #50baab;
-    border-width: 5px;
+	letter-spacing: none;
+	line-height: none;
+	margin-top: 20px;
+	margin-bottom: none;
 
 }
 
 /* Links */
 
-li {
-	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
-    background-color: #50baab;
+li a {
+	font-family: 'Georgia', times, serif;
+	font-size: .75em;
+	color: #AAA;
+    line-height: 1.75em;
 	text-decoration: none;
-    display: inline-block;
 }
 
 a {
-	font-size: 2.5em;
+	font-size: 1em;
 	font-weight: normal;    
-	color: white;
-	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
-	text-align: center;
+	color: green;
+	font-family: 'Georgia', times, serif;
+	text-align: left;
 	text-decoration: none;
-
+	text-decoration: none;
 }
 
 a:hover {
-	color: gray;
+	color: #000;
 	text-decoration: none;
+}
+
+/* Turns off link borders on Firefox */
+a:active, a:focus {outline: 0;}
+
+/* You don’t need the following, yet */
+/* Media Query for tablets with at least 768px wide windows */
+@media screen and (min-width:768px)
+{
+	
+	
+}
+
+/* Media Query for desktops with at least 1000px wide windows */
+@media screen and (min-width:1000px)
+{
+
+li {
+	width: 20%;
+    
+}
+
+.one {
+    width: 50%;
+    margin-left: 2.5%;
+	margin-right: auto;
+	margin-top: none;
+	margin-bottom: none;
+    
+}
+    
+.two {
+    width: 20%;
+    height: 365px;
+	margin-left: 2.5%;
+	margin-right: auto;
+	margin-top: none;
+	
+}
+
+.three {
+    width: 30%;
+    height: 300px;
+	margin-left: 2.5%;
+	margin-top: 25px;
+	
+}
+
+    
+.four {
+    display: block;
+    	
+}
+
+.five {
+    display: block;
+    	
+}
+
+.six {
+    display: block;
+    
+}
+    
+x.menudrop {
+	position: absolute;
+	background: #FF3333;
+	width: 100%;
+	height: auto;
+	left: 0%;
+	top: 4%;
+	overflow: hidden;
+	z-index: 100;
+	display: none;
+	
+}
+
+    
+.menudrop {
+    position: relative;
+    background-color: none;
+	width: 100%;
+    text-align: center;
+    margin-left: none;
+	margin-right: auto;
+	margin-top: none;
+	margin-bottom: none;
+    float: left;
+	overflow: hidden; /*fixes collapsing div*/
+    display: block;
+    
+}
+    
+.mainmenu {
+    display: none;
+        
+}
+	
+	
+}
