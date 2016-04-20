@@ -91,7 +91,7 @@ html,body {
 
 .readbox {
     position: absolute;
-    width: 290px;
+    width: 36.25%;
     height: 70px;
     margin-top: 200px;
     margin-left: 58%;
@@ -102,7 +102,7 @@ html,body {
 }
 
 .ad {
-    width: 720px;
+    width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 70px;
@@ -110,6 +110,9 @@ html,body {
 }
 
 .recent {
+    position: relative;
+    width: 90%;
+    height: auto;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 60px;
@@ -119,28 +122,16 @@ html,body {
 
 .articletitles {
     position: absolute;
-    width: 670px;
-    margin-top: 15px;
-    margin-left: 25px;
-    margin-right: 25px;
+    background-color: rgba(247,148,30,.6);
+    width: 100%;
+    height: 93%;
+    padding-top: 10px;
     z-index: 3;
  
 }
 
-.orange{
-    position: absolute;
-    background-color: rgba(247,148,30,.7);
-    width: 720px;
-    height: 144px;
-    margin-left: none;
-	margin-right: none;
-	margin-top: none;
-	margin-bottom: none;
-    z-index: 2;
-}
-
-.orange:hover{
-    display: none;
+.articletitles:hover {
+    background-color: rgba(247,148,30,0);
 }
 
 /*nav.fixed-header {
