@@ -101,6 +101,48 @@ html,body {
     
 }
 
+.ad {
+    width: 720px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.recent {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+
+
+
+.articletitles {
+    position: absolute;
+    width: 670px;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    z-index: 3;
+ 
+}
+
+.orange{
+    position: absolute;
+    background-color: rgba(247,148,30,.7);
+    width: 720px;
+    height: 144px;
+    margin-left: none;
+	margin-right: none;
+	margin-top: none;
+	margin-bottom: none;
+    z-index: 2;
+}
+
+.orange:hover{
+    display: none;
+}
+
 /*nav.fixed-header {
     position: fixed;
     top: 0; 
@@ -295,7 +337,7 @@ body { margin:0px; padding:0px; }
 /* Text Styles start */
 p {
 	font-family: 'PT Serif', 'Times New Roman', serif;
-	font-size: 2.8em;
+	font-size: 1.756em;
 	color: black;
 	font-style: normal;
 	letter-spacing: none;
@@ -321,7 +363,7 @@ h1 {
 
 h2 {
 	font-family: 'Lato', 'Century Gothic', sans-serif;
-	font-size: 3em;
+	font-size: 2.8em;
     text-align: center;
 	color: white;
 	font-style: bold;
@@ -334,13 +376,15 @@ h2 {
 
 h3 {
 	font-family: 'Lato', 'Century Gothic', sans-serif;
-	font-size: 1.25em;
-	color: gray;
+	font-size: 5.2em;
+	color: #f7941e;
 	font-style: normal;
 	letter-spacing: none;
 	line-height: none;
 	margin-top: 3px;
 	margin-bottom: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
 
 }
 
@@ -426,8 +470,8 @@ li {
 }
 
 .one {
-    width: 50%;
-    margin-left: 2.5%;
+    width: 100%;
+    margin-left: 0%;
 	margin-right: auto;
 	margin-top: none;
 	margin-bottom: none;
