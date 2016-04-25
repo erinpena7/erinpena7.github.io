@@ -93,13 +93,16 @@ html,body {
 .readbox {
     position: absolute;
     width: 36.25%;
-    height: 70px;
-    margin-top: 200px;
+    height: 90px;
+    margin-top: 180px;
     margin-left: 58%;
     border-color: white;
     border-style: solid;
     border-width: 3px;
     
+}
+.readbox:hover{
+    border-color: #f7941e;
 }
 
 .ad {
@@ -139,7 +142,7 @@ html,body {
 .logo{
     position: absolute;
     margin-left: 27%;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .featuredarticle{
@@ -155,12 +158,18 @@ html,body {
 .orange{
     color: #f7941e;
     text-decoration: underline;
-    margin-left: 60%;
+    margin-left: 69%;
    
 }
 
 .orange:hover{
     color: white;
+}
+
+.small{
+    font-size: 80%;
+    text-decoration: underline;
+    margin-left: 79.5%;
 }
 
 /*nav.fixed-header {
@@ -204,6 +213,16 @@ html,body {
 	margin-left:86%;
 	margin-right:5%;
     z-index: 10; 
+}
+
+.ptag{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+
+.smaller{
+    font-size: 50%;
 }
 
 
@@ -250,26 +269,25 @@ li {
 }
 
 .two {
-    position: relative;
-	background-color: #eee;
-	width: 42.5%;
-    height: 200px;
-	margin-left: 5%;
-	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: none;	
-    float: left;
+   position: relative;
+    background-color: #f7941e;
+    width: 100%;
+    min-width: 800px;
+    height: 80px;
+    margin-left: none;
+	margin-right: none;
+	margin-top: none;
+	margin-bottom: none;
 	overflow: hidden; /*fixes problem with top margin in child*/
 	
 }
 
 .three {
     position: relative;
-	background-color: #ddd;
-	width: 26.666%;
-    height: 175px;
-	margin-left: 5%;
-	margin-top: 25px;
+	background-color: rgba(247,148,30,.5);
+	width: 100%;
+    height:350px;
+	margin-top: 35px;
 	margin-bottom: none;	
     float: left;
 	overflow: hidden; /*fixes problem with top margin in child*/
@@ -388,10 +406,6 @@ p {
 	font-style: normal;
 	letter-spacing: none;
 	line-height: 1.6em;
-	margin-top: 50px;
-    margin-left: 5%;
-    margin-right: 5%;
-	margin-bottom: none;
 	
 }
 
@@ -415,8 +429,7 @@ h2 {
 	font-style: bold;
 	letter-spacing: none;
 	line-height: 1em;
-	margin-top: 12px;
-	margin-bottom: none;
+	margin-top: 20px;
 
 }
 
@@ -427,10 +440,7 @@ h3 {
 	font-style: normal;
 	letter-spacing: none;
 	line-height: none;
-	margin-top: 3px;
-	margin-bottom: 5px;
     margin-left: 5%;
-    margin-right: 5%;
 
 }
 
@@ -442,8 +452,7 @@ h4 {
     font-weight: bolder;
 	letter-spacing: none;
 	line-height: 1.6em;
-	margin-top: none;
-	margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
 
@@ -454,8 +463,6 @@ h5 {
 	font-style: normal;
 	letter-spacing: none;
 	line-height: none;
-	margin-top: none;
-	margin-bottom: 20px;
 
 }
 
@@ -466,33 +473,27 @@ h6 {
 	font-style: normal;
 	letter-spacing: none;
 	line-height: none;
-	margin-top: 20px;
-	margin-bottom: none;
 
 }
 
 /* Links */
 
-li a {
-	font-family: 'Georgia', times, serif;
-	font-size: .75em;
-	color: #AAA;
-    line-height: 1.75em;
-	text-decoration: none;
+li {
+	font-family: 'Lato', 'Century Gothic', sans-serif;
+
+
 }
 
 a {
-	font-size: 1em;
 	font-weight: normal;    
-	color: green;
-	font-family: 'Georgia', times, serif;
-	text-align: left;
-	text-decoration: none;
+	color: white;
+	font-family: 'Lato', 'Century Gothic', sans-serif;
+	text-align: center;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #000;
+	color: #f7941e;
 	text-decoration: none;
 }
 
@@ -526,11 +527,11 @@ li {
 }
     
 .two {
-    width: 20%;
-    height: 365px;
-	margin-left: 2.5%;
+    width: 100%;
+    margin-left: 0%;
 	margin-right: auto;
 	margin-top: none;
+	margin-bottom: none;
 	
 }
 
