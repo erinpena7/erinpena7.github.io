@@ -72,6 +72,7 @@ html,body {
     height: auto;
 	margin-left:auto;
 	margin-right:auto;
+    overflow: hidden;
 		
 }
 
@@ -83,7 +84,7 @@ html,body {
     text-align: right;
 	margin-right: 5%;
     margin-left: 25%;
-	margin-top: 0px;
+	margin-top: 20px;
 	margin-bottom: none;	
 	overflow: hidden; /*fixes problem with top margin in child*/
 	
@@ -112,9 +113,10 @@ html,body {
 .recent {
     position: relative;
     width: 90%;
+    max-width: 720px;
     height: auto;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 60px;
 }
 
@@ -134,6 +136,33 @@ html,body {
     background-color: rgba(247,148,30,0);
 }
 
+.logo{
+    position: absolute;
+    margin-left: 27%;
+    margin-top: 25px;
+}
+
+.featuredarticle{
+    background-color: rgba(247,148,30,.3);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 50px;
+    
+}
+
+.orange{
+    color: #f7941e;
+    text-decoration: underline;
+    margin-left: 60%;
+   
+}
+
+.orange:hover{
+    color: white;
+}
+
 /*nav.fixed-header {
     position: fixed;
     top: 0; 
@@ -142,18 +171,44 @@ html,body {
     
 }*/
 
-nav {
-	position: relative;
-    background-color: #fff;
-	width: 100%;
-    max-width: 1000px;
-    height: 60px;
-    margin-top: none;
+.nav {
+	position: absolute;
+    background-color: none;
+	width: 12%;
+    height: auto;
+    margin-top: 28px;
+    margin-left: 40px;
     margin-bottom: 10px;
 	overflow: hidden; /*fixes collapsing div*/
     z-index: 100;
 	
 }
+
+.facebook{
+    position: absolute;
+    background-color: none;
+	width: 8%;
+    height: auto;
+    margin-top: 27px;
+	margin-left:75%;
+	margin-right:auto;
+    z-index: 10;
+}
+
+.twitter{
+   position: absolute;
+    background-color: none;
+	width: 8%;
+    height: auto;
+    margin-top: 27px;
+	margin-left:86%;
+	margin-right:5%;
+    z-index: 10; 
+}
+
+
+
+
 
 .hero {
 	position: center;
@@ -163,7 +218,7 @@ nav {
 	margin-left:auto;
 	margin-right:auto;
     z-index: 10;
-    
+    overflow: hidden;
 }
 
 li {
@@ -185,7 +240,7 @@ li {
     background-color: #f7941e;
     width: 100%;
     min-width: 800px;
-    height: 100px;
+    height: 120px;
     margin-left: none;
 	margin-right: none;
 	margin-top: none;
@@ -342,7 +397,7 @@ p {
 
 h1 {
 	font-family: 'Lato', 'Century Gothic', sans-serif;
-	font-size: 4.6em;
+	font-size: 3.7em;
 	color: white;
 	font-style: normal;
 	font-weight: bold;
@@ -367,7 +422,7 @@ h2 {
 
 h3 {
 	font-family: 'Lato', 'Century Gothic', sans-serif;
-	font-size: 5.2em;
+	font-size: 4em;
 	color: #f7941e;
 	font-style: normal;
 	letter-spacing: none;
@@ -380,12 +435,13 @@ h3 {
 }
 
 h4 {
-	font-family: 'Georgia', 'Times New Roman', serif;
-	font-size: .75em;
+	font-family: 'Lato', 'Century Gothic', sans-serif;
+	font-size: 2.7em;
 	color: black;
 	font-style: normal;
+    font-weight: bolder;
 	letter-spacing: none;
-	line-height: none;
+	line-height: 1.6em;
 	margin-top: none;
 	margin-bottom: 20px;
 
