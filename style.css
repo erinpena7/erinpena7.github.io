@@ -251,6 +251,7 @@ li {
 	margin-top: 25px;
 	margin-bottom: 25px;
     float: left;
+    z-index: 2;
 	overflow: hidden; /*fixes collapsing div*/
 	    
 }
@@ -287,8 +288,8 @@ li {
     position: relative;
 	background-color: rgba(247,148,30,.5);
 	width: 100%;
-    height:350px;
-	margin-top: 35px;
+    height:380px;
+	margin-top: 65px;
 	margin-bottom: none;	
     float: left;
 	overflow: hidden; /*fixes problem with top margin in child*/
@@ -302,11 +303,10 @@ li {
 
 .five {
     display: none;
-    position: relative;
-	background-color: #ddd;
-	width: 17%;
+	background-color: #f7941e;
+	width: 100%;
     height: 150px;
-	margin-left: 2.5%;
+	margin-left: 2.2%;
 	margin-top: 25px;
 	margin-bottom: none;	
     float: left;
@@ -315,15 +315,11 @@ li {
 }
 
 .six {
-    display: none;
-    position: relative;
-	background-color: #eee;
-	width: 13.75%;
+     position: absolute;
+    display: block;
+    width: 25%;
     height: 100px;
-	margin-left: 2.5%;
-	margin-top: 25px;
-	margin-bottom: 25px;	
-    float: left;
+    z-index: 1;
 	overflow: hidden; /*fixes problem with top margin in child*/
 	
 }
@@ -505,6 +501,7 @@ a:active, a:focus {outline: 0;}
 li {
 	width: 25%;
     
+    
 }
 
 .one {
@@ -528,7 +525,6 @@ li {
 .three {
     width: 100%;
     height: 150px;
-	margin-top: 25px;
 	
 }
 
@@ -546,9 +542,20 @@ li {
 }
 
 .five {
+    position: absolute;
     display: block;
+    width: 25%;
+    height: 100px;
+    z-index: 1;
     	
 }
+    .six{
+       position: absolute;
+    display: block;
+    width: 25%;
+    height: 100px;
+    z-index: 1;  
+    }
 
 .six {
     display: block;
@@ -582,12 +589,38 @@ x.menudrop {
 	display: none;
 	
 }
+    
+    .logo{
+        margin-top: 25px;
+    }
+    
+    .logotype{
+        font-size: 1.5em;
+
+    }
+    
+    .facebook{
+        margin-top: 13px;
+    }
+    
+    .twitter{
+        margin-top: 13px;
+    }
+    
     .orange{
     color: #f7941e;
     text-decoration: underline;
     margin-left: 53%;
    
 }
+    
+    .headline{
+        margin-top: 90px;
+    }
+    
+    .readbox{
+        margin-top: 250px;
+    }
     
 .recent {
     position: inherit;
