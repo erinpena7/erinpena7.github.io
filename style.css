@@ -97,8 +97,20 @@ html,body {
     height: auto;
     text-align: left;
 	margin-right: 5%;
-    margin-left: 3%;
+    margin-left: 5%;
 	margin-top: 60px;
+	margin-bottom: none;  
+}
+
+.headlinearticle{
+     position: absolute;
+	background-color: none;
+	width: 50%;
+    height: auto;
+    text-align: left;
+	margin-right: 5%;
+    margin-left: 5%;
+	margin-top: 70px;
 	margin-bottom: none;  
 }
 
@@ -244,8 +256,18 @@ html,body {
     font-size: 50%;
 }
 
+.articletitle{
+    text-align: left;
+}
 
-
+.pullquote{
+    font-style: italic;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    text-align: center;
+    color: #f7941e;
+    
+}
 
 
 .hero {
@@ -324,7 +346,7 @@ li {
 	background-color: #f7941e;
 	width: 100%;
     height: 150px;
-	margin-left: 2.2%;
+	margin-left: 2%;
 	margin-top: 25px;
 	margin-bottom: none;	
     float: left;
@@ -427,6 +449,7 @@ p {
 	font-style: normal;
 	letter-spacing: none;
 	line-height: 1.6em;
+    
 	
 }
 
@@ -476,12 +499,13 @@ h4 {
 }
 
 h5 {
-	font-family: 'Georgia', 'Times New Roman', serif;
-	font-size: .75em;
-	color: gray;
-	font-style: normal;
+	font-family: 'Lato', 'Century Gothic', sans-serif;
+	font-size: 2.8em;
+    text-align: left;
+	color: white;
+	font-style: bold;
 	letter-spacing: none;
-	line-height: none;
+    line-height: 1.2em;
 
 }
 
@@ -541,6 +565,15 @@ li {
         margin-top: 130px;
     }
     
+    .headlinearticle{
+        margin-top: 90px;
+    }
+    
+    .articletitle{
+        font-size: 1.5em;
+        line-height: 1.3em;
+    }
+    
 .one {
     width: 100%;
     margin-left: 0%;
@@ -586,7 +619,8 @@ li {
     z-index: 1;
     	
 }
-    .six{
+    
+ .six{
        position: absolute;
     display: block;
     width: 25%;
@@ -594,15 +628,11 @@ li {
     margin-left: 305px;
     z-index: 1;  
     }
-
-.six {
-    display: block;
-    
-}
     
 .nav{
     display: none;
     }
+    
  .featuredarticle{
     background-color: rgba(247,148,30,.3);
     padding-top: 40px;
@@ -614,19 +644,6 @@ li {
     max-width: 40%;
      position: absolute;
     }
-    
-x.menudrop {
-	position: absolute;
-	background: #FF3333;
-	width: 100%;
-	height: auto;
-	left: 0%;
-	top: 4%;
-	overflow: hidden;
-	z-index: 100;
-	display: none;
-	
-}
     
     .logo{
         margin-top: 25px;
@@ -660,7 +677,7 @@ x.menudrop {
         margin-top: 250px;
     }
     
-.recent {
+    .recent {
     position: inherit;
     width: 37%;
     max-width: 720px;
@@ -669,13 +686,12 @@ x.menudrop {
     margin-right: 5%;
     margin-top: 60px;
 }
+    
     .recenttext{
         font-size: 70%;
     }
 
-
-
-.articletitles {
+    .articletitles {
     position: absolute;
     background-color: rgba(247,148,30,.6);
     width: 100%;
@@ -685,11 +701,12 @@ x.menudrop {
     z-index: 3;
  
 }
+    
     .recentarticlestitle{
         margin-left: 56%
     }
 
-.articletitles:hover {
+    .articletitles:hover {
     background-color: rgba(247,148,30,0);
 }
 
@@ -700,25 +717,7 @@ x.menudrop {
         margin-top: none;
     }
     
-.menudrop {
-    position: relative;
-    background-color: none;
-	width: 100%;
-    text-align: center;
-    margin-left: none;
-	margin-right: auto;
-	margin-top: none;
-	margin-bottom: none;
-    float: left;
-	overflow: hidden; /*fixes collapsing div*/
-    display: block;
     
-}
-    
-.mainmenu {
-    display: none;
-        
-}
 	
 	
 }
