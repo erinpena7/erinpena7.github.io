@@ -22,23 +22,33 @@
     <body>
         
         <div class="wrapper">
-             <a href="#" onclick="toggle_visibility('menu');"><nav class="menu_button nodesk">&#x2630;</nav></a>
+            <div class="fixed">
+                <a href="#" onclick="toggle_visibility('menu');">
+                    <nav class="menu_button nodesk">&#x2630;</nav>
+                </a>
+                
+                <a href="index.html"><img class="logo" alt="Shaanti logo" src="images/logo.png"></a>
+                <img class="navicon" alt="login icon" src="images/login.png">
+                <img class="navicon" alt="search icon" src="images/search.png">
+                
+                
+                <nav id="menu">
+                    <ul>
+                        <a href="#"><li>ABOUT</li></a>
+                        <a href="#"><li>SESSIONS</li></a>
+                        <a href="#"><li>LOCATIONS</li></a>
+                        <a href="#"><li>LOGIN</li></a>
+                        <div class="box">
+                          <div class="container-1">
+                              <span class="icon"><i class="fa fa-search"></i></span>
+                              <input type="search" id="search" placeholder="Search..." />
+                          </div>
+                        </div>
+                    </ul>
+                </nav>
 
-            <nav id="menu">
-                <ul>
-                    <a href="#"><li>ABOUT</li></a>
-                    <a href="#"><li>SESSIONS</li></a>
-                    <a href="#"><li>LOCATIONS</li></a>
-                    <a href="#"><li>LOGIN</li></a>
-                </ul>
-            </nav>
-                    
-        <nav>
-            <p class="hamburger">&#9776;</p>
-            <a href="index.html"><img class="logo" alt="Shaanti logo" src="images/logo.png"></a>
-            <img class="navicon" alt="login icon" src="images/login.png">
-            <img class="navicon" alt="search icon" src="images/search.png">
-        </nav>
+                
+            </div>        
             
             
         <header>

@@ -23,12 +23,27 @@
         
         <div class="wrapper">
                     
-        <nav>
-            <p class="hamburger">&#9776;</p>
-            <a href="index.html"><img class="logo" alt="Shaanti logo" src="images/logo.png"></a>
-            <img class="navicon" alt="login icon" src="images/login.png">
-            <img class="navicon" alt="search icon" src="images/search.png">
-        </nav>
+            <div class="fixed">
+                <a href="#" onclick="toggle_visibility('menu');">
+                    <nav class="menu_button nodesk">&#x2630;</nav>
+                </a>
+                
+                <a href="index.html"><img class="logo" alt="Shaanti logo" src="images/logo.png"></a>
+                <img class="navicon" alt="login icon" src="images/login.png">
+                <img class="navicon" alt="search icon" src="images/search.png">
+                
+                
+                <nav id="menu">
+                    <ul>
+                        <a href="#"><li>ABOUT</li></a>
+                        <a href="#"><li>SESSIONS</li></a>
+                        <a href="#"><li>LOCATIONS</li></a>
+                        <a href="#"><li>LOGIN</li></a>
+                    </ul>
+                </nav>
+
+                
+            </div>  
             
         <header>
             <section class="nodesk">
@@ -122,5 +137,19 @@
         </footer>
      
         </div>
+        
+        <script type="text/javascript">
+            function toggle_visibility(id) {
+               var e = document.getElementById(id);
+               if(e.style.display == 'block')
+                  e.style.display = 'none';
+               else
+                  e.style.display = 'block';
+            }
+        </script>
+        
     </body>
+        
+        
+        
 </html>
