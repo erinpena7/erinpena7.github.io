@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500|Roboto:400,500,700');
+
+
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -19,7 +24,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -27,9 +31,6 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -53,671 +54,502 @@ img {
 	display: block; /*removes tiny space added in some browsers below images */
 }
 
-
-/* Your CSS Starts here */
-/* Place google fonts code here */
-/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400); */
-/* Place google fonts code here */
-
-html,body {
-
-}
-
-/* Divs start here */
-.wrapper {
-	position: relative;
-    background-color: none;
-	width: 100%;
-    max-width: 1200px;
-    height: auto;
-	margin-left:auto;
-	margin-right:auto;
-    overflow: hidden;
-		
-}
-
-.headline {
-    position: absolute;
-	background-color: none;
-	width: 70%;
-    height: auto;
-    text-align: right;
-	margin-right: 5%;
-    margin-left: 25%;
-	margin-top: 20px;
-	margin-bottom: none;	
-	overflow: hidden; /*fixes problem with top margin in child*/
-	
-}
-
-.headlineabout{
-   position: absolute;
-	background-color: none;
-	width: 50%;
-    height: auto;
-    text-align: left;
-	margin-right: 5%;
-    margin-left: 5%;
-	margin-top: 60px;
-	margin-bottom: none;  
-}
-
-.headlinearticle{
-     position: absolute;
-	background-color: none;
-	width: 50%;
-    height: auto;
-    text-align: left;
-	margin-right: 5%;
-    margin-left: 5%;
-	margin-top: 70px;
-	margin-bottom: none;  
-}
-
-.abouttitle{
-    font-size: 1.3em;
-    line-height: 1.5em;
-    text-align: left;
-}
-
-.readbox {
-    position: absolute;
-    width: 36.25%;
-    height: 70px;
-    margin-top: 190px;
-    margin-left: 58%;
-    border-color: white;
-    border-style: solid;
-    border-width: 3px;
-    padding-top: 20px;
-    
-}
-.readbox:hover{
-    border-color: #f7941e;
-}
-
-.ad {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-.recent {
-    position: relative;
-    width: 90%;
-    max-width: 720px;
-    height: auto;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 60px;
+html {
+    font-size: 16px;
+	line-height: 1.5em;
 }
 
 
-
-.articletitles {
-    position: absolute;
-    background-color: rgba(247,148,30,.6);
-    width: 100%;
-    height: 93%;
-    padding-top: 10px;
-    z-index: 3;
- 
-}
-
-.articletitles:hover {
-    background-color: rgba(247,148,30,0);
-}
-
-.logo{
-    position: absolute;
-    margin-left: 27%;
-    margin-top: 35px;
-}
-
-.featuredarticle{
-    background-color: rgba(247,148,30,.3);
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 50px;
-    
-}
-
-.orange{
-    color: #f7941e;
-    text-decoration: underline;
-    margin-left: 69%;
-
-}
-
-.orange:hover{
-    color: white;
-}
-
-.small{
-    font-size: 80%;
-    text-decoration: underline;
-    margin-left: 79.5%;
-}
-
-/*nav.fixed-header {
-    position: fixed;
-    top: 0; 
-    left: 0;
-    width: 100%; 
-    
-}*/
-
-.nav {
-	position: absolute;
-    background-color: none;
-	width: 12%;
-    height: auto;
-    margin-top: 28px;
-    margin-left: 40px;
-    margin-bottom: 10px;
-	overflow: hidden; /*fixes collapsing div*/
-    z-index: 100;
-	
-}
-
-.facebook{
-    position: absolute;
-    background-color: none;
-	width: 8%;
-    height: auto;
-    margin-top: 27px;
-	margin-left:75%;
-	margin-right:auto;
-    z-index: 10;
-}
-
-.twitter{
-   position: absolute;
-    background-color: none;
-	width: 8%;
-    height: auto;
-    margin-top: 27px;
-	margin-left:86%;
-	margin-right:5%;
-    z-index: 10; 
-}
-
-.ptag{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 50px;
-}
-
-.smaller{
-    font-size: 50%;
-}
-
-.articletitle{
-    text-align: left;
-}
-
-.pullquote{
-    font-style: italic;
-    font-size: 1.1em;
-    line-height: 1.5em;
-    text-align: center;
-    color: #f7941e;
-    
-}
-
-
-.hero {
-	position: center;
-    background-color: none;
-	width: 100%;
-    height: auto;
-	margin-left:auto;
-	margin-right:auto;
-    z-index: 10;
-    overflow: hidden;
-}
-
-li {
-	position: relative;
-    background-color: none;
-	width: 100%;
-    text-align: center;
-    margin-left: none;
-	margin-right: auto;
-	margin-top: 25px;
-	margin-bottom: 25px;
-    float: left;
-    z-index: 2;
-	overflow: hidden; /*fixes collapsing div*/
-	    
-}
-
-.one {
-	position: relative;
-    background-color: #f7941e;
-    width: 100%;
-    min-width: 800px;
-    height: 120px;
-    margin-left: none;
-	margin-right: none;
-	margin-top: none;
-	margin-bottom: none;
-	/*overflow: hidden; fixes problem with top margin in child*/
-
-}
-
-.two {
-   position: relative;
-    background-color: #f7941e;
-    width: 100%;
-    min-width: 800px;
-    height: 80px;
-    margin-left: none;
-	margin-right: none;
-	margin-top: none;
-	margin-bottom: none;
-	overflow: hidden; /*fixes problem with top margin in child*/
-	
-}
-
-.three {
-    position: relative;
-	background-color: rgba(247,148,30,.5);
-	width: 100%;
-    height:380px;
-	margin-top: 65px;
-	margin-bottom: none;	
-    float: left;
-	overflow: hidden; /*fixes problem with top margin in child*/
-	
-}
-
-.four {
-    display: none;
-	
-}
-
-.five {
-    display: none;
-	background-color: #f7941e;
-	width: 100%;
-    height: 150px;
-	margin-left: 2%;
-	margin-top: 25px;
-	margin-bottom: none;	
-    float: left;
-	overflow: hidden; /*fixes problem with top margin in child*/
-	
-}
-
-.six {
-   display: none;
-	background-color: #f7941e;
-	width: 100%;
-    height: 150px;
-	margin-left: 2.2%;
-	margin-top: 25px;
-	margin-bottom: none;	
-    float: left;
-	overflow: hidden; /*fixes problem with top margin in child*/
-	
-}
-
-.seven{
-  position: relative;
-    background-color: #f7941e;
-    width: 100%;
-    min-width: 800px;
-    height: 10px;
-    margin-left: none;
-	margin-right: none;
-	margin-top: none;
-	margin-bottom: none;  
-}
-
-.mainmenu {
-	position: fixed;
-	width: 30px;
-    height: auto;
-	left: 80%;
-	top: 15px;
-	z-index: 40;
-}
-
-.menudrop {
-	position: absolute;
-	background: #FFF;
-	width: 100%;
-	height: auto;
-	left: 0%;
-	top: 12%;
-	overflow: hidden;
-	z-index: 100;
-	display: none;
-	
-}
-
-.hamburger {
-	position: relative;
-	width: 100%;
-	overflow: hidden;
-	
-}
-
-.hamburger_bar li {
-	position: relative;
-	width: 100%;
-	height: 10%;
-	border-bottom: solid;
-	border-color: #FFFFE5;
-	border-width: 1px;
-	margin-left: 0%;
-	margin-top: 5%;
-	text-indent: 5%;
-	overflow: hidden;
-	z-index: 50;
-	
-}
-
-.hamburger a {
-	text-decoration: none;
-	color: #AAA;
-	font-family: 'Arvo', 'Georgia', 'Times New Roman', serif;
-	font-size: .75em;
-	line-height: 1.75em;
-	margin-left: auto;
-    margin-right: auto;
-	
-}
-
-.hamburger li:hover {
-	margin-top: 6.25%;
-	
-}
-
-body { margin:0px; padding:0px; }
-
-/* Text Styles start */
 p {
-	font-family: 'PT Serif', 'Times New Roman', serif;
-	font-size: 1.5em;
-	color: black;
-	font-style: normal;
-	letter-spacing: none;
-	line-height: 1.6em;
-    
-	
+    font-family: 'Raleway', sans-serif;
+    font-size: 24pt;
+    line-height: 2.5em;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    align-content: center;
+    color: #7A7476;
 }
 
 h1 {
-	font-family: 'Lato', 'Century Gothic', sans-serif;
-	font-size: 3.7em;
-	color: white;
-	font-style: normal;
-	font-weight: bold;
-	letter-spacing: 2px;
-	line-height: 1.2em;
-
-
+    background-image: url(images/text-bar.png);
+    height: 108px;
+    font-family: 'Roboto', sans-serif;
+    color: #495D57;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 1.75em;
+    text-align: center;
+  
+    
 }
 
 h2 {
-	font-family: 'Lato', 'Century Gothic', sans-serif;
-	font-size: 2.8em;
+    font-family: 'Roboto', sans-serif;
+    font-style: 500;
     text-align: center;
-	color: white;
-	font-style: bold;
-	letter-spacing: none;
-
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-top: 40px;
+    font-size: 40pt;
+    color: #7a7476;
+    
 }
-
 h3 {
-	font-family: 'Lato', 'Century Gothic', sans-serif;
-	font-size: 4em;
-	color: #f7941e;
-	font-style: normal;
-	letter-spacing: none;
-	line-height: none;
-    margin-left: 5%;
-
+    font-family: 'Raleway', sans-serif;
+    font-size: 14pt;
+    line-height: 1.5em;
+    color: white;
+    width: 274px;
+    margin-bottom: 20px;
 }
 
-h4 {
-	font-family: 'Lato', 'Century Gothic', sans-serif;
-	font-size: 2.7em;
-	color: black;
-	font-style: normal;
-    font-weight: bolder;
-	letter-spacing: none;
-	line-height: 1.6em;
-    margin-bottom: 30px;
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #7A7476;
+    margin-bottom: 35px;
 
 }
 
 h5 {
-	font-family: 'Lato', 'Century Gothic', sans-serif;
-	font-size: 2.8em;
-    text-align: left;
-	color: white;
-	font-style: bold;
-	letter-spacing: none;
-    line-height: 1.2em;
-
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 24pt;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #7A7476;
+    
 }
+
 
 h6 {
-	font-family: 'Georgia', 'Times New Roman', serif;
-	font-size: .5em;
-	color: gray;
-	font-style: normal;
-	letter-spacing: none;
-	line-height: none;
-
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18pt;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #7A7476;  
 }
 
-/* Links */
+.size {
+    font-size: 50pt;
+    border-bottom: 7px solid #EEEEEF;
+}
 
-li {
-	font-family: 'Lato', 'Century Gothic', sans-serif;
+.aqua{
+    color: #649393;
+}
+
+section {
+    
+    margin-bottom: 100px;
+    text-align: center;
+}
 
 
+.wrapper {
+    width: 640px;
+    margin: 0 auto;
+    
+}
+
+.nomobile {
+    display: none;
+}
+
+nav {
+    background-color: #7a7476;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    min-width: 640px;
+}
+
+.menu_button {
+    background-color:black;
+    width:25%;
+    margin:1em auto;
+    padding:1em 0em;
+    text-align:center;
+}
+
+.menu_button:hover {
+    
+}
+
+#menu {
+    display:none;
+}
+
+#menu li {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 1em 0em;
+    margin: 2em 0em;
+    text-align: center;
+}
+
+#menu li:hover {
+    background-color:grey;
 }
 
 a {
-	font-weight: normal;    
-	color: white;
-	font-family: 'Lato', 'Century Gothic', sans-serif;
-	text-align: center;
-	text-decoration: none;
+    color:white;
 }
 
-a:hover {
-	color: #f7941e;
-	text-decoration: none;
+.hamburger {
+    color: white;
+    float: left;
+    margin-left: 26px;
+    font-size: 60px;
+    line-height: 1em;
 }
 
-/* Turns off link borders on Firefox */
-a:active, a:focus {outline: 0;}
-
-/* You don’t need the following, yet */
-/* Media Query for tablets with at least 768px wide windows */
-@media screen and (min-width:768px)
-{
-	
-	
+.logo {
+    margin-left: 90px;
+    margin-top: .75em;
+    margin-right: 50px;
+    width: 258px;
+    float: left;
 }
 
-/* Media Query for desktops with at least 1000px wide windows */
-@media screen and (min-width:1200px)
-{
-
-li {
-	width: 25%;
-    
+.navicon {
+    margin-top: 1.3em;
+    margin-left: 20px;
+    width: 50px;
+    float: left;
     
 }
 
-    .headlineabout{
-        margin-top: 130px;
-    }
-    
-    .headlinearticle{
-        margin-top: 90px;
-    }
-    
-    .articletitle{
-        font-size: 1.5em;
-        line-height: 1.3em;
-    }
-    
-.one {
-    width: 100%;
-    margin-left: 0%;
-	margin-right: auto;
-	margin-top: none;
-	margin-bottom: none;
-    
-}
-    
-.two {
-    width: 100%;
-    margin-left: 0%;
-	margin-right: auto;
-	margin-top: none;
-	margin-bottom: none;
-	
-}
-
-.three {
-    width: 100%;
-    height: 150px;
-	
-}
-
-    
-.four {
-    display: block;
+header {
+    top: 114px;
     position: relative;
-	background-color: lightgray;
-	width: 96%;
-    height:100px;
-	margin-top: 25px;
-	margin-bottom: 25px;;	
-    margin-left: 2%;
-	overflow: hidden; /*fixes problem with top margin in child*/ 	
+    
 }
 
-.five {
+.cta {
     position: absolute;
-    display: block;
-    width: 25%;
-    height: 100px;
-    z-index: 1;
-    	
+    top: 75px;
+    left: 50px;
+    
 }
-    
- .six{
-       position: absolute;
-    display: block;
-    width: 25%;
-    height: 100px;
-    margin-left: 305px;
-    z-index: 1;  
-    }
-    
-.nav{
-    display: none;
-    }
-    
- .featuredarticle{
-    background-color: rgba(247,148,30,.3);
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
-     margin-left: 5%;
-    margin-top: 50px;
-    max-width: 40%;
-     position: absolute;
-    }
-    
-    .logo{
-        margin-top: 25px;
-    }
-    
-    .logotype{
-        font-size: 1.5em;
 
-    }
+button {
+    color: white;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: 3px  solid white;
+    width: 188px;
+    height: 45px;
+    text-align: center;
+    text-transform: uppercase;
     
-    .facebook{
-        margin-top: 13px;
-    }
-    
-    .twitter{
-        margin-top: 13px;
-    }
-    
-    .orange{
-    color: #f7941e;
-    text-decoration: underline;
-    margin-left: 53%;
-   
 }
-    
-    .headline{
-        margin-top: 90px;
-    }
-    
-    .readbox{
-        margin-top: 250px;
-    }
-    
-    .recent {
-    position: inherit;
-    width: 37%;
-    max-width: 720px;
-    height: auto;
-    margin-left: 58%;
-    margin-right: 5%;
-    margin-top: 60px;
-}
-    
-    .recenttext{
-        font-size: 70%;
-    }
 
-    .articletitles {
-    position: absolute;
-    background-color: rgba(247,148,30,.6);
+button:hover {
+    background-color: black;
+    opacity: .5;
+    color: white;
+}
+
+
+main {
+    margin-top: 180px;
+    text-align: center;
+    
+}
+
+
+.instructor{
+    margin-left: 38%;
+}
+
+.icon {
+    margin-left: 37%;
+    margin-bottom: 50px;
+    margin-top: 150px;
+    
+}
+
+.button2 {
+    background-color: #d5d2c4;
+    border-radius: 17px;
+    line-height: .75em;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 147px;
+    margin-bottom: 70px;
+    
+}
+
+form {
+    text-align: center;
+    color: #EEEEF0;
+    width: 536px;
+    padding: 30px 15px;
+    margin-top: 200px;
+    margin-left: 38px;
+    margin-bottom: 150px;
+    background-color: #EEEEF0;
+}
+
+input {
+    border-radius: 30px;
+    border: 4px solid #7a7476;
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 446px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.75em;
+    line-height: 1em;
+    padding: 15px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    
+}
+
+.submit {
+    background-color: #d5d2c4;
+    line-height: .75em;
+    border: none;
+    width: 190px;
+    border-radius: 17px;
+    text-transform: uppercase;
+    color: #7a7476;
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+   color: #7a7476;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #d5d2c4;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #d5d2c4;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #d5d2c4;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #d5d2c4;
+}
+
+footer{
+    background-color: #EEEEEF;
     width: 100%;
-    height: 100%;
-    margin-left: 0%;
-    padding-top: 0px;
-    z-index: 3;
- 
+    padding-top: 10px;
+    padding-bottom: 1px;
 }
+
+
+.sml {
+    margin-left: 190px;
     
-    .recentarticlestitle{
-        margin-left: 56%
+}
+
+.socialmedia {
+    display: inline-block;
+    height: auto;
+    margin-top: 20px;
+	margin-left: 5%;
+	margin-right:auto;
+    z-index: 10; 
+    
+}
+
+@media screen and (min-width: 641px) {
+    
+
+    .wrapper {
+        max-width: 1200px;
+        width: 100%
+        
+    }
+    
+    .nodesk {
+        display: none;
+        
+    }
+    
+    .nomobile {
+        display: block;
+    }
+    
+    nav {
+        max-width: 1200px; 
+        height: 130px;
+        position: relative;
+    }
+    
+    .cta {
+        margin-left: 30px;
+        margin-top: 50px
+    }
+    
+    button {
+        margin-left: -60px;
+    }
+    
+    .hamburger {
+        display: none;
     }
 
-    .articletitles:hover {
-    background-color: rgba(247,148,30,0);
-}
+    .logo {
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 258px;
+        float: left;
+    }
 
-    .ad{
-       position: relative;
-        max-width: 37%;
-        margin-left: 58%;
+    .navicon {
+        display: none;
+    
+}
+    
+    main {
+        width: 570px;
+        float: left;
+        margin-right: 0px;
+        margin-left: 70px;
+        
+    } 
+    
+    .icon {
+        margin-left: 40px;
+    }
+    
+    .iconbox {
+        margin-top: -75px;
+        width: 256px;
+        margin-left: 40px;
+        float: left;
+        margin-bottom: 80px;
+    }
+    
+    .iconclass {
+        clear: both;
+        margin-left: -10px;
+        
+    }
+    
+    aside {
+        margin-top: -50px;
+        width: 448px;
+        float: left;
+    }
+    
+    p {
+        text-align: left;
+        font-size: 15pt;
+        line-height: 1.5
+    }
+    
+    h1 {
+        text-align: left;
+        background-image: none;
+        margin-bottom: -60px;
+    }
+    
+    
+    h3 {
+        margin-top: 200px;
+        margin-left: 20px;
+        text-align: left;
+    }
+    
+    h4 {
+        font-size: 20pt;
+        line-height: 1.5em;
+    }
+    
+    h6 {
+        margin-left: 800px;
+        
+    }
+
+    .white{
+        color: white;
+    }
+    
+    .big{
+        color: white;
+        font-size: 80pt;
+    }
+    
+    header {
+        width: 1060px;
+        margin-left: 70px;
+        margin-top: -95px;
+    }
+    
+    .calendarbox{
+        margin-top: 170px;
+        background-color: #649393;
+        width: 300px;
+    }
+    
+    .button2{
+        margin-left: 80px;
+    }
+    
+    form {
         margin-top: none;
+        margin-left: 0;
+        margin-bottom: 0;
+        width: 460px;
+        
+    }
+    
+    input {
+        margin-bottom: 10px;
+        width: 410px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 1.75em;
+        padding: 15px 20px;
+        margin: 15px 0;
+    
+}
+    
+    footer {
+        clear: both;
     }
     
     
-	
-	
+    .sml {
+        float: left;
+        width: 300px;
+        margin-left: 40px;
+        margin-top: -30px  
+
+    }
+    
+      .nodesk {
+        display:none;
+    }
+    
+    #menu {
+        display:block !important; /* in case of javascript override */
+    }
+    
+    #menu li {
+        float:left;
+        width:25%;
+    }
+    
+    
 }
+
+
