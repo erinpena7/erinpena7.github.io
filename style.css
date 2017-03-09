@@ -81,6 +81,7 @@ h1 {
     font-size: 40px;
     line-height: 1.75em;
     text-align: center;
+    
   
     
 }
@@ -141,6 +142,7 @@ h6 {
 .size {
     font-size: 50pt;
     border-bottom: 7px solid #EEEEEF;
+    color: #649393;
 }
 
 .aqua{
@@ -155,7 +157,8 @@ section {
 
 
 .wrapper {
-    width: 640px;
+    width: 100%;
+    max-width: 640px;
     margin: 0 auto;
     
 }
@@ -218,23 +221,23 @@ a {
 .hamburger {
     color: white;
     float: left;
-    margin-left: 26px;
+    margin-left: 4%;
     font-size: 60px;
     line-height: 1em;
 }
 
 .logo {
-    margin-left: 10px;
+    margin-left: 1.5%;
     margin-top: 1.5em;
-    margin-right: 50px;
-    width: 258px;
+    margin-right: 6%;
+    width: 40%;
     float: left;
 }
 
 .navicon {
     margin-top: 2.25em;
-    margin-left: 20px;
-    width: 50px;
+    margin-left: 3%;
+    width: 7.8%;
     float: left;
     
 }
@@ -248,7 +251,7 @@ header {
 .cta {
     position: absolute;
     top: 75px;
-    left: 50px;
+    left: 7.8125%;
     
 }
 
@@ -302,7 +305,7 @@ main {
     line-height: .75em;
     width: 350px;
     margin-top: 100px;
-    margin-left: 147px;
+    margin-left: 21%;
     margin-bottom: 70px;
     
 }
@@ -310,10 +313,10 @@ main {
 form {
     text-align: center;
     color: #EEEEF0;
-    width: 536px;
+    width: 83.75%;
     padding: 30px 15px;
     margin-top: 200px;
-    margin-left: 38px;
+    margin-left: 7.089%;
     margin-bottom: 150px;
     background-color: #EEEEF0;
 }
@@ -323,7 +326,7 @@ input {
     border: 4px solid #7a7476;
     font-size: 20px;
     margin-bottom: 10px;
-    width: 446px;
+    width: 83.208%;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 1.75em;
@@ -338,7 +341,7 @@ input {
     background-color: #d5d2c4;
     line-height: .75em;
     border: none;
-    width: 190px;
+    width: 42.60%;
     border-radius: 17px;
     text-transform: uppercase;
     color: #7a7476;
@@ -372,7 +375,7 @@ footer{
 
 
 .sml {
-    margin-left: 190px;
+    margin-left: 29.68%;
     
 }
 
@@ -391,8 +394,15 @@ footer{
 
     .wrapper {
         max-width: 1200px;
-        width: 100%
+        width: 100%;
         
+    }
+    
+    
+    header {
+        width: 88.33%;
+        margin-left: 70px;
+        margin-top: -95px;
     }
     
     .nodesk {
@@ -411,16 +421,16 @@ footer{
     }
     
     .cta {
-        margin-left: 30px;
+        margin-left: 2.8301887%;
         margin-top: 50px
     }
     
     button {
-        margin-left: -60px;
+        margin-left: -5.660377px;
     }
     
     .fixed{
-        width: 100%;
+        width: 1200px;
     }
     
     .hamburger {
@@ -428,9 +438,9 @@ footer{
     }
 
     .logo {
-        margin-left: 30px;
+        margin-left: 2.5%;
         margin-top: 130px;
-        width: 200px;
+        width: 16.66666667%;
         float: left;
     }
     
@@ -441,24 +451,27 @@ footer{
         margin-top: 130px;
     }
     
+    
     #menu li {
-        width: 135px;;
+        width: 16%;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 16px;
         letter-spacing: 2pt;
         padding: 0;
-        margin: 0;
+        margin: 0px .08%;
         text-align: center;
         float: left;
   
     }
     
+    
+    
     #search {
-        width: 134px;
+        width: 32.68292%;
         font-size: 10px;
         margin-top: -18px;
-        margin-right: 50px;
+        margin-right: 12.19512%;
         border-color: white;
         color: white;
         float: right;
@@ -469,31 +482,22 @@ footer{
     
     
     .container-1 input#search{
-          width: 160px;
-          height: 30px;
-          background: transparent;
-          font-size: 10pt;
-          float: right;
+        width: 17%;
+        height: 30px;
+        background: transparent;
+        font-size: 10pt;
+        float: right;
         color: white;
-          padding-left: 35px;
-          -webkit-border-radius: 5px;
-          -moz-border-radius: 5px;
-          border-radius: 25px;
+        padding-left: 2%;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 25px;
         border-width: 3px;
-        margin-top: -10px;
+        margin-top: -30px;
         
         }
     
-    .container-1 .search{
-      position: absolute;
-      top: 50%;
-      margin-left: 17px;
-      margin-top: 17px;
-      z-index: 1;
-      color: #4f5b66;
-    }
-
-  
+   
 
     
     .container-1 input#search::-webkit-input-placeholder {
@@ -518,46 +522,45 @@ footer{
     }
     
     main {
-        width: 570px;
+        width: 47.5%;
         float: left;
-        margin-right: 0px;
         margin-top: 200px;
-        margin-left: 70px;
+        margin-left: 5.83333%;
         
     } 
     
  
     
     .icon {
-        margin-left: 40px;
+        margin-left: 18%;
     }
     
     
     .iconbox {
         margin-top: -75px;
-        width: 256px;
-        margin-left: 40px;
+        width: 21%;
+        margin-left: 3.3333%;
         float: left;
         margin-bottom: 80px;
     }
     
     .icon:hover {
-    background-color: white;
+        background-color: white;
         opacity: .5;
-    color: white;
-}
+        color: white;
+        }
 
     
     .iconclass {
         clear: both;
-        margin-left: -10px;
+        margin-left: -0.83333%;
         
     }
     
     aside {
         margin-top: -30px;
-        width: 448px;
         float: left;
+        width: 38.3333%;
     }
     
     p {
@@ -625,16 +628,12 @@ footer{
     }
     
     
-    header {
-        width: 1060px;
-        margin-left: 70px;
-        margin-top: -95px;
-    }
     
     .calendarbox{
         margin-top: 170px;
+        margin-left: 7%;
         background-color: #649393;
-        width: 300px;
+        width: 76%;
     }
     
     .gray{
@@ -642,12 +641,16 @@ footer{
     }
     
     .button2{
-        margin-left: 80px;
+        margin-left: 30%;
+        width: 45%;
+        min-width: 200px;
         clear: both;
     }
     
     .rsvp{
-        margin-left: -15px;
+        margin-left: 15%;
+        width: 60%;
+        min-width: 100px;
     }
     
     .map{
@@ -661,18 +664,18 @@ footer{
         margin-top: none;
         margin-left: 0;
         margin-bottom: 0;
-        width: 460px;
+        width: 100%;
         
     }
     
     input {
         margin-bottom: 10px;
-        width: 410px;
+        width: 89.130434%;
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 1.75em;
         padding: 15px 20px;
-        margin: 15px 0;
+        margin: 3.2608% 0;
     
     }
     
@@ -684,8 +687,8 @@ footer{
     
     .sml {
         float: left;
-        width: 300px;
-        margin-left: 40px;
+        width: 25%;
+        margin-left: 3.333%;
         margin-top: -30px  
 
     }
