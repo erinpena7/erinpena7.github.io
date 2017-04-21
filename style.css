@@ -50,7 +50,7 @@ table {
 p{
     
     font-family: 'Open Sans','Arial',sans-serif;
-    color: #5e1c05;
+    color: #2f0d40;
     font-size: 24pt;
     line-height: 2em;
     margin: 5%;
@@ -71,7 +71,7 @@ h1{
 
 h2{
     font-family: 'Open Sans','Arial',sans-serif;
-    color: #5e1c05;
+    color: #2f0d40;
     float: left;
     font-size: 48pt;
     line-height: 1.25em;
@@ -80,7 +80,7 @@ h2{
 
 h3{
     font-family: 'Open Sans','Arial',sans-serif;
-    color: #5e1c05;
+    color: #2f0d40;
     float: inherit;
     font-size: 30pt;
     font-weight: 700;
@@ -93,7 +93,7 @@ h3{
 
 h4{
    font-family: 'Open Sans','Arial',sans-serif;
-    color: #efa759;
+    color: #939597;
     float: inherit;
     font-size: 30pt;
     font-weight: 400;
@@ -102,7 +102,7 @@ h4{
 
 h5{
     font-family: 'Open Sans','Arial',sans-serif;
-    color: #efa759;
+    color: #939597;
     float: inherit;
     font-size: 20pt;
     font-weight: 400;
@@ -112,7 +112,7 @@ h5{
 
 h6{
     font-family: 'Open Sans','Arial',sans-serif;
-    color: #5e1c05;
+    color: #2f0d40;
     font-size: 14pt;
     line-height: 1.75em;
     text-align: center;
@@ -147,7 +147,7 @@ html {
 .fixed{
     position: fixed;
     z-index: 10;
-    background-color:#5e1c05;
+    background-color:#2f0d40;
     width: 640px;
 }
 
@@ -192,7 +192,7 @@ nav{
 }
 
 #menu li:hover {
-    color:#efa759;
+    color:#939597;
 }
 
 a {
@@ -208,7 +208,7 @@ a {
 
 .one{
     height: 100px;
-    background-color:#efa759;
+    background-color:#939597;
     width: 100%;
 }
 
@@ -217,7 +217,7 @@ a {
     margin-left: 5%;
     margin-top: 40px;
     border: solid;
-    border-color: #5e1c05;
+    border-color: #2f0d40;
     border-width: 7px;
 }
 
@@ -333,7 +333,7 @@ button {
 }
 
 h3:hover{
-    color: #efa759;
+    color: #939597;
 }
 .socialmedia{
     margin-left: 32%;
