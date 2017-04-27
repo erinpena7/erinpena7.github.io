@@ -50,7 +50,7 @@ table {
 p{
     
     font-family: 'Open Sans','Arial',sans-serif;
-    color: #2f0d40;
+    color: #272525;
     font-size: 24pt;
     line-height: 2em;
     margin: 5%;
@@ -61,26 +61,15 @@ h1{
     font-family: 'Open Sans','Arial',sans-serif;
     font-weight: 700;
     color: white;
-    float: left;
-    font-size: 48pt;
+    font-size: 40pt;
     line-height: 1.25em;
-    margin-left: 130px;
-    padding-top: 5px;
+    padding-top: 15px;
     text-align: center;
 }
 
 h2{
     font-family: 'Open Sans','Arial',sans-serif;
-    color: #2f0d40;
-    float: left;
-    font-size: 48pt;
-    line-height: 1.25em;
-    margin-left: 20px
-}
-
-h3{
-    font-family: 'Open Sans','Arial',sans-serif;
-    color: #2f0d40;
+    color: #272525;
     float: inherit;
     font-size: 30pt;
     font-weight: 700;
@@ -91,9 +80,20 @@ h3{
     padding-top: 20px;
 }
 
+h3{
+    font-family: 'Open Sans','Arial',sans-serif;
+    color: white;
+    float: inherit;
+    font-size: 20pt;
+    font-weight: 700;
+    line-height: 1.75em;
+    text-align: center;
+    padding-top: 20px;
+}
+
 h4{
    font-family: 'Open Sans','Arial',sans-serif;
-    color: #939597;
+    color: #eeb83e;
     float: inherit;
     font-size: 30pt;
     font-weight: 400;
@@ -102,7 +102,7 @@ h4{
 
 h5{
     font-family: 'Open Sans','Arial',sans-serif;
-    color: #939597;
+    color: #eeb83e;
     float: inherit;
     font-size: 20pt;
     font-weight: 400;
@@ -112,12 +112,13 @@ h5{
 
 h6{
     font-family: 'Open Sans','Arial',sans-serif;
-    color: #2f0d40;
+    color: white;
     font-size: 14pt;
     line-height: 1.75em;
     text-align: center;
     float: left;
     margin-left: 38%;
+    margin-bottom: 30px;
 }
 
 .productbox{
@@ -147,7 +148,7 @@ html {
 .fixed{
     position: fixed;
     z-index: 10;
-    background-color:#2f0d40;
+    background-color:#272525;
     width: 640px;
 }
 
@@ -171,7 +172,7 @@ nav{
 }
 
 .menu_button:hover {
-    
+    color: #eeb83e;
 }
 
 #menu {
@@ -192,7 +193,7 @@ nav{
 }
 
 #menu li:hover {
-    color:#939597;
+    color:#eeb83e;
 }
 
 a {
@@ -208,7 +209,7 @@ a {
 
 .one{
     height: 100px;
-    background-color:#939597;
+    background-color:#eeb83e;
     width: 100%;
 }
 
@@ -217,8 +218,12 @@ a {
     margin-left: 5%;
     margin-top: 40px;
     border: solid;
-    border-color: #2f0d40;
-    border-width: 7px;
+    border-color: #eeb83e;
+    border-width: 3px;
+}
+
+.two:hover{
+    border-color: #272525;
 }
 
 .colors{
@@ -252,11 +257,13 @@ a {
      margin-left: 15px;
 }
 
+
 .white{
     width: 50px;
     height: 50px;
     background-color: white;
     border: solid;
+    border-width: thin;
     border-color: black;
     box-sizing: border-box;
     float: left;
@@ -272,6 +279,9 @@ a {
 
 footer{
     max-width: 640px;
+    background-color: #272525;
+    height: 450px;
+    margin-top: 70px;
 }
 .logo{
     float: left;
@@ -327,19 +337,32 @@ button {
 
 .footernav{
     width: 400px;
-    height: 100px;
+    height: 300px;
     margin-left: 130px;
 
 }
 
 h3:hover{
-    color: #939597;
+    color: #eeb83e;
 }
 .socialmedia{
     margin-left: 32%;
 }
 
-.sm{
+
+.fb{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+	margin-right:auto;
+    z-index: 10;  
+}
+
+.fb:hover{
+   content: url(images/fblogo_gold.png);
+}
+
+.twtr{
     display: inline-block;
     margin-top: 20px;
     margin-left: 20px;
@@ -347,9 +370,21 @@ h3:hover{
     z-index: 10;
 }
 
-
-.socialmedia a:hover p{
-    display: block;
+.twtr:hover{
+    content: url(images/twtrlogo_gold.png);
 }
+
+.mail{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+	margin-right:auto;
+    z-index: 10;
+}
+
+.mail:hover{
+    content: url(images/mailicon_gold.png);
+}
+
 
 
