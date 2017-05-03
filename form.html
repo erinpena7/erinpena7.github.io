@@ -64,31 +64,41 @@
         </header>
             
         <main>
+            
+            <h2>$59.99</h2>
+            <h4>Tumbler</h4>
+            
+            <div class="colors">
+                <div class="black"></div>
+                <div class="blue"></div>
+                <div class="red"></div>
+                <div class="white"></div>
+            </div>
+            
+            <div class="quantitybuttons_added">
+              <input id="minus" type="button" class="minus" value="-">
+              <input id="theInput" type="number" size="4" class="input-text qty text" title="Qty" value="1" min="0" step="1">
+              <input id="plus" type="button" class="plus" value="+">
+            </div>
+            
             <p>The Jül’s heating technology is elegantly built-in between the inner and outer walls of the mug. Its interface is made up of clever, analog dials and subtle light indicators to let you know when your drink is just right. It is wirelessly powered by setting it onto it's compact, USB-powered coaster, so you can use it anywhere. To save valuable space f and extend it’s lifespan, the Jūl is battery-free and comes with a both a charging cord and docking base.</p>
+            
+            <a href="mugs.html">
+                <h1 class="orangebutton">Back To Products</h1>
+            </a>
             
             
             <section>
                 
-                <a href="#">
-                    <div class="two">
-                        <img class="mugsimages" src="images/tumbler.png">
-                        <h3><span class="productbox">$XX.XX</span></h3>
-                        <h4><span class="productbox">Tumbler</span></h4>
-                        <h5><span class="productbox">Colors Available:</span></h5>
-                        <div class="colors">
-                            <div class="black"></div>
-                            <div class="blue"></div>
-                            <div class="red"></div>
-                            <div class="white"></div>
-                        </div>
-                    </div>
-                </a>
+                
                     
           
                
                                 
             </section>
                 
+            
+            
             
             
             
@@ -142,6 +152,15 @@
                   e.style.display = 'none';
                else
                   e.style.display = 'block';
+            }
+             
+             
+            var input = document.getElementById('theInput');
+            document.getElementById('plus').onclick = function(){
+                input.value = parseInt(input.value, 10) +1
+            }
+            document.getElementById('minus').onclick = function(){
+                input.value = parseInt(input.value, 10) -1
             }
         </script>
     

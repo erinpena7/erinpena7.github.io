@@ -75,7 +75,7 @@ h2{
     font-weight: 700;
     line-height: 1.75em;
     text-align: left;
-    padding-left: 70px;
+    padding-left: 5%;
     padding-right: 10px;
     padding-top: 20px;
 }
@@ -98,6 +98,7 @@ h4{
     font-size: 30pt;
     font-weight: 400;
     line-height: 1.75em;
+    margin-left: 5%;
 }
 
 h5{
@@ -116,9 +117,8 @@ h6{
     font-size: 14pt;
     line-height: 1.75em;
     text-align: center;
-    float: left;
-    margin-left: 38%;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .productbox{
@@ -138,8 +138,6 @@ html {
 }
 
 .wrapper {
-    width: 640px;
-    max-width: 640px;
     margin: 0 auto;
     
 }
@@ -149,7 +147,7 @@ html {
     position: fixed;
     z-index: 10;
     background-color:#272525;
-    width: 640px;
+    width: 100%;
 }
 
 header {
@@ -220,6 +218,7 @@ a {
     border: solid;
     border-color: #eeb83e;
     border-width: 3px;
+/*    float: left;*/
 }
 
 .two:hover{
@@ -278,10 +277,11 @@ a {
 
 
 footer{
-    max-width: 640px;
+    width: 100%;
     background-color: #272525;
-    height: 450px;
+    height: 440px;
     margin-top: 70px;
+    padding-top: 10px;
 }
 .logo{
     float: left;
@@ -308,13 +308,12 @@ footer{
 
 button {
  
-    background-color: transparent;
+    background-color: #eeb83e;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 1px;
-    border: 3px  solid;
     
-    width: 188px;
+    width: 308px;
     height: 45px;
     text-align: center;
     text-transform: uppercase;
@@ -323,6 +322,18 @@ button {
 .brownlogo{
     float: left;
     margin-left: 5%
+}
+
+.orangebutton{
+    font-size: 30px;
+    padding: 20px;
+    width: 60%;
+    background-color: #eeb83e;
+    margin-left: 15%;
+}
+
+.orangebutton:hover{
+    background-color: #272525;
 }
 
 .mugs{
@@ -335,10 +346,14 @@ button {
     width: 100%;
 }
 
+.quantitybuttons_added{
+    margin-left: 5%;
+}
+
 .footernav{
     width: 400px;
     height: 300px;
-    margin-left: 130px;
+    margin: 0 auto;
 
 }
 
@@ -346,7 +361,8 @@ h3:hover{
     color: #eeb83e;
 }
 .socialmedia{
-    margin-left: 32%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -384,6 +400,15 @@ h3:hover{
 
 .mail:hover{
     content: url(images/mailicon_gold.png);
+}
+
+
+@media screen and (min-width: 641px) {
+    
+    
+    
+    
+    
 }
 
 
