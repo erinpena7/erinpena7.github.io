@@ -153,7 +153,7 @@ html {
 }
 
 header {
-    top: 98px;
+    top: 80px;
     position: relative;
     margin-bottom: 140px;
 }
@@ -178,6 +178,7 @@ nav{
 #menu {
     width: 100%;
     background-color:#272525;
+    display: none;
 }
 
 #menu li {
@@ -422,12 +423,43 @@ h3:hover{
         width: 100%;
     } 
     
+    p{
+        font-size: 16pt;
+    }
+    
+    h1{
+        font-size: 24pt;
+        padding: 5px;
+    }
+    
+    h2{
+        font-size: 18pt;
+    }
+    
+    h3{
+        font-size: 16pt;
+    }
+    
+    h4{
+        font-size: 16pt;
+    }
+    
+    h5{
+        font-size: 12pt;
+    }
+    
+    h6{
+        font-size: 12pt;
+    }
+    
     .nodesk{
         display: none;
     }
     
     .fixed{
         height: 70px;
+        top: 0;
+    
     }
     
     .logo{
@@ -460,6 +492,71 @@ h3:hover{
         z-index: 10;
   
     }
+    
+    header {
+    top: 70px;
+    }
+    
+    footer{
+        height: 380px;
+    }
+    
+    .hero{
+        margin-left: 5%;
+        width: 90%;
+        float: left;
+    }
+    
+    .one{
+        height: auto;
+    }
+    
+    aside{
+        float: right;
+    }
+    
+    .two{
+        width: 450px;
+        overflow: hidden;
+/*        float: left;*/
+    }
+    
+    .mugsimages{
+        width: 40%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .colors{
+        margin-left: 54%;
+        width: 200px;
+    }
+    
+    .black{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .blue{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .red{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .white{
+        width: 30px;
+        height: 30px;
+    }
+    
+    
+    
+    
+    
+    
     
     
 }
