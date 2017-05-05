@@ -525,8 +525,11 @@ h3:hover{
     }
     
     .cta{
-        margin: 0 auto;
-        width: 600px;
+        margin-top: 30px;
+        width: 50%;
+        min-width: 500px;
+        margin-left: 20%;
+        margin-right: 20%;
     }
     
     .herotext{
@@ -535,7 +538,7 @@ h3:hover{
     }
     
     button{
-        margin-left: 166px;
+        margin-left: 30%;
     }
     
     .homefloats{
