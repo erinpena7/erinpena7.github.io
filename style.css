@@ -307,22 +307,28 @@ footer{
     top: 115px;
     left: 5%;
     width: 400px;
+    margin-left: 30px;
 
 }
 
 button {
- 
+    margin-top: 20px;
     background-color: #eeb83e;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 25px;
     letter-spacing: 1px;
-    
+    color: white;
     width: 308px;
     height: 45px;
     text-align: center;
-    text-transform: uppercase;
+    border: none;
     
 }
+
+button:hover{
+    background-color: #272525;
+}
+
 .brownlogo{
     float: left;
     margin-left: 5%
@@ -425,7 +431,7 @@ h3:hover{
     } 
     
     p{
-        font-size: 16pt;
+        font-size: 14pt;
     }
     
     h1{
@@ -504,16 +510,67 @@ h3:hover{
         float: right;
     }
     
+    
     .hero{
-        margin-left: 5%;
+        margin: 0 auto;
         width: 90%;
-        float: left;
+        max-width: 1000px;
     }
+    
+    .herobox{
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .cta{
+        margin: 0 auto;
+        width: 600px;
+    }
+    
+    .herotext{
+        text-align: center;
+        font-size: 20pt;
+    }
+    
+    button{
+        margin-left: 166px;
+    }
+    
+    .homefloats{
+        height: 400px;
+    }
+    
+    .gif{
+        width: 60%;
+        max-width: 700px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+    
+    
+    .tempcomparison{
+        width: 60%;
+        max-width: 700px;
+        float: right;
+        margin-right: 20px;
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+    
     
     .tumblerimage{
         width: 50%;
         margin: 20px;
         float: left;
+    }
+    
+    .orangebutton{
+        margin: 0 auto;
+        overflow: hidden;
+        max-width: 600px;
+        margin-top: 60px;
     }
     
     .one{
@@ -542,7 +599,7 @@ h3:hover{
     }
     
     .checkout{
-        font-size: 30px;
+        font-size: 20px;
         padding: 10px;
         width: 60%;
         background-color: #eeb83e;
