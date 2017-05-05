@@ -352,6 +352,7 @@ button {
 
 .quantitybuttons_added{
     margin-left: 5%;
+    
 }
 
 .footernav{
@@ -446,6 +447,7 @@ h3:hover{
     
     h5{
         font-size: 12pt;
+        margin-left: 30px;
     }
     
     h6{
@@ -508,12 +510,27 @@ h3:hover{
         float: left;
     }
     
+    .tumblerimage{
+        width: 50%;
+        margin: 20px;
+        float: left;
+    }
+    
     .one{
         height: auto;
     }
     
     aside{
-        float: right;
+        float: left;
+        width: 600px;
+        height: 350px;
+        margin-bottom: 60px;
+    }
+    
+   
+    
+    .formaside{
+        float: none;
     }
     
     .two{
@@ -522,6 +539,19 @@ h3:hover{
         float: left;
         margin-left: 2%;
     
+    }
+    
+    .checkout{
+        font-size: 30px;
+        padding: 10px;
+        width: 60%;
+        background-color: #eeb83e;
+        margin-left: 15%;
+        margin-top: 70px;
+    }
+
+    .checkout:hover{
+    background-color: #272525;
     }
     
     
